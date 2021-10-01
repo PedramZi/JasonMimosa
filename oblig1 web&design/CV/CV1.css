@@ -1,0 +1,31 @@
+p { font-size: 80%; color: black;
+} /* for å endre teksten i pagen, så minket jeg størrelsen ved hjelp av font-size */
+
+body { 
+    background-image: url(../About/images/bc.jpg);
+    background-color: white;} /* Jeg brukte body{ for å gjøre endringer på hele siden, og dermed skifte sidefargen til hvit */
+
+h2 {font-size: 40px;
+     background-color: RGB(232, 220, 184);} 
+/* Jeg brukte box-modellen for å finne ut hvordan jeg kunne legge til farge rundt titlene. PÅ den måten blir CV-en mer
+ spennende å lese*/
+
+       
+
+h3 { 
+    color: black; /*Jeg henviste meg til h2 for å endre skriftsfargen til mørkered fordi det er et av temafargene
+    våres, noe som vil skape bedre harmoni */
+    background-color: RGB(232, 220, 184); 
+}
+    
+
+h3, p, ul, li{
+        font-family: 'Open Sans', sans-serif; /*HEr endret jeg skriftstypen i listene for å skape litt variasjon*/
+ }  
+
+
+
+
+
+
+

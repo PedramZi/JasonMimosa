@@ -1,0 +1,164 @@
+*, *:after, *:before{
+box-sizing: content-box;
+}
+
+.header {
+    color:rgb(218, 160, 74);
+    font-size: 2em; 
+    width: 100%; 
+    text-align: center; 
+}
+.footer {
+    color:rgb(218, 160, 74);
+    font-size: 3.5em;
+    width: 100%;
+    background-color: rgb(110, 4, 4);
+    display: inline-block;
+    color: white;
+    text-align: center; 
+}
+/*.jason {
+    font-size: 2em;
+    letter-spacing: 1px;
+    margin: 1em;
+}
+.menu {
+    font-size: 1.2em;
+    line-height: 1.5em;
+    letter-spacing: 1px;
+    padding: 1em;
+    margin: 1em;
+    float} */
+
+header > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(110, 4, 4);
+  }
+  
+li {
+    float: left;
+  }
+  
+ li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+ li a:hover {
+    background-color: rgb(110, 4, 4);}
+
+    
+body {
+    background-image: url(../About/images/bc.jpg);
+    background-color: black;
+    padding: 60px 5px 40px;
+    font-family: Helvetica, sans-serif;
+    color: white;
+}
+.container {
+    border:4px solid rgb(110, 4, 4);
+    width: 100%;
+    vertical-align: baseline;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+/*
+.bordered-left {
+    background-color: white;
+    
+    height: 250%;
+    position: relative;
+    
+    justify-content: left;
+    text-align: center;
+    box-shadow: 5px solid salmon;
+    
+}
+.bordered-center {
+    background-color: white;
+    height: 250%;
+    position: relative;
+    width: 70%;
+    justify-content: center;
+    text-align: center;
+}
+.bordered-right {
+    background-color: white;
+    height: 250%;
+    position: relative;
+    width: 70%;
+    justify-content: right;
+    text-align: center;
+}
+*/
+#top {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.rad-left{
+    max-width: 33%;
+}
+.rad-mid{
+    max-width: 33%;
+}
+.rad-right{
+    max-width: 33%;
+}
+
+/*
+#oldImage {
+    width: 100%;
+    height: 100%;
+    
+}
+
+#huggingImage {
+    width: 100%;
+    height: 100%;}
+
+#dancingImage{
+    width: 100%;
+    height: 100%;
+}
+#diplomaImage{
+    width: 100%;
+    height: 100%;
+}
+#handImage{
+    width: 100%;
+    height: 100%; 
+}
+*/
+.textbox{
+    height: 100%;
+    font-size: 100%;
+    text-align:center;
+    border: 1px solid transparent;
+    
+}
+img{
+    object-fit: cover;
+    justify-content: center;
+    height: 300px;
+    width: 300px;
+
+}
+article > ul{
+    list-style-type: none;
+    overflow: hidden;
+
+}
+blockquote {
+    font-family:'bradley hand', 'comic sans', monospace ;
+    margin-top: 30px;
+    text-align:center;
+    border: 1px solid transparent;
+}
